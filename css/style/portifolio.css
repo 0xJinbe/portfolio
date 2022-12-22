@@ -1,0 +1,80 @@
+.portifolio {
+    margin: 2em 7em 0 7em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.portifolio__descricao {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.portifolio__titulo {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 0.5em 1em 0 0;
+    width: 4.25em;
+}
+
+.portifolio__paragrafo {
+    color: var(--paragrafos);
+    font-size: 0.9em;
+    margin-left: 2em;
+    width: 14em;
+}
+
+.portifolio__botao{
+    font-size: 0.6em;
+    font-weight: 400;
+    margin: 2em 0 2em 0;
+}
+
+.botao {
+    background: var(--laranja-degrade);
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--background-geral);
+    margin-right: 0.5em;
+}
+
+.projeto {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    margin: 1em auto;
+}
+
+.projeto__imagem {
+    height: 190px;
+    width: 340px;
+    margin: 0.5em;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1024px){
+    .portifolio {
+        font-size: 16px;
+        margin: 1em 2em;
+    }
+
+    .portifolio__descricao {
+        margin: 1em;
+    }
+
+    .portifolio__titulo{
+        margin-bottom: 0.5em;
+    }
+
+    .portifolio__paragrafo {
+        margin: 0;
+    }
+
+    .portifolio__botao {
+        margin: 2em 1em;
+    }
+}

@@ -1,0 +1,131 @@
+.home {
+    display: flex;
+    margin: 2.5em 10vw 1.5em 10vw;
+    justify-content: center;
+}
+
+.home-conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.home__destaque{
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.home__paragrafo {
+    margin: 1em 0;
+    font-size: 0.9em;
+}
+
+.home__botao {
+    background: var(--laranja-degrade);
+    border-radius: 0.7em;
+    color: var(--background-geral);
+    font-weight: 500;
+    font-size: 0.6em;
+    padding: 1em;
+    width: 10em;
+    margin: 3em 0;
+}
+
+.home__botao:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}
+
+.home__icones {
+    margin-top: 1em;
+}
+
+.icone__github{
+    margin-right: 1em;
+    height: 75px;
+}
+
+.icone__github:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.icone__linkedin{
+    margin-right: 1em;
+    height: 75px;
+}
+
+.icone__linkedin:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.imagem__principal {
+    margin: auto 0;
+}
+
+.home__conteiner-imagem {
+    display: flex;
+    width: 50vw;
+    height: 100%;
+    position: relative;
+
+}
+
+.engrenagem-laranja {
+    width: 5em;
+    height: 5em;
+    position: absolute;
+    left: 6rem;
+    top: 0rem;
+}
+
+.engrenagem-roxa {
+    width: 5em;
+    height: 5em;
+    position: absolute;
+    right: -2rem;
+    top: 2rem;
+}
+
+.imagem-engrenagem {
+    animation: giro-infinito 5s linear infinite;
+}
+
+@keyframes giro-infinito {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.mobile-home-conteiner {
+    display: none;
+}
+
+@media screen and (max-width: 1024px){
+
+    .home {
+        text-align: center;
+        font-size: 16px;
+        margin: 2em 5em;
+    }
+
+    .home-conteiner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home__conteiner-imagem {
+        display: none;
+    }
+
+    .icone__github, .icone__linkedin{
+        width: 2em;
+        height: 2em;
+    }
+
+}
