@@ -10,7 +10,7 @@
 .techs-conteiner{
     box-shadow: 3px 5px 10px rgba(240, 95, 74, 0.25);
     border-radius: 10px;
-    width: 30vw;
+    width: 40vw;
     margin: 0 2em;
 }
 
@@ -48,7 +48,7 @@
 .icons-conteiner {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 2em;
+    margin-bottom: 2em;    
 }
 
 .icon-imagem {
