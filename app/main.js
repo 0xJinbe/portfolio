@@ -1,6 +1,11 @@
 let projetos = []
 
 projetos.push(
+    {link: 'https://github.com/claudio-germano/nodejs-openAI-imagegenerator', 
+    imagem:'img/sho1.png', 
+    tag:'JS',
+    filtro: 'todos'
+},
     {link: 'https://github.com/claudio-germano/shoppingListApp', 
     imagem:'img/shop-list-app.png', 
     tag:'React',
